@@ -10,10 +10,10 @@ function Navbar() {
     <div className="fixed w-full bg-white shadow-sm z-10">
       <div className="border-b-[1px] py-4">
         <Container>
-          <div className="flex justify-between items-center  gap-3 md:gap-0">
+          <div className="flex flex-column  sm:flex justify-between items-center  gap-3 md:gap-0">
             <Logo />
             <Search />
-          <UserMenu/>
+            <UserMenu/>
           </div>
         </Container>
       </div>
